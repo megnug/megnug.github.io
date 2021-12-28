@@ -1,9 +1,6 @@
 .navbar-item{
     font-size: 1em;
-    -webkit-background-clip: text;
-    background-clip: text;
-    background-image: url("abstractUnsplash.jpg");
-    color: transparent;
+    color: black;
 }
 .post{
     margin-left: 2%;
