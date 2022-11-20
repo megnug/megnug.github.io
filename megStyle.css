@@ -1,26 +1,32 @@
 .navbar-item{
     font-size: 1em;
-    color: black;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: url("abstractUnsplash.jpg");
+    color: transparent;
 }
 .post{
-    margin-left: 2%;
-    margin-right: 2%;
-    padding-top: 1%;
+    padding-top: 2%;
+	padding-bottom: 3%;
 }
 .image{
-    margin-top:5%;
 }
 .imagePost{
-    background-image: url("abstractUnsplash.jpg");
+    background-image: url("pinkPexels.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-color: #0A131A;
+}
+.title{
+	font-family: "DM Serif Display";
+}
+.subtitle{
+	font-family: Prata;
 }
 #nav{
     background-color: white;
 }
 #body{
-    background-image: url("test.jpg");
     background-size: cover;
     background-attachment: fixed;
     background-color: #0A131A;
@@ -31,6 +37,7 @@
     background-clip: text;
     background-image: url("pinkUnsplash.jpg");
     color: transparent;
+	font-family: "Cormorant SC";
 }
 #navspace{
     visibility: hidden;
