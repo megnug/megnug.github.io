@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" charset="utf-8">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="description" content=""/>
+    <title>First post</title>
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css">
+    <link rel="stylesheet" href="../css/mnStyle.css">
+    <script src="https://kit.fontawesome.com/4b0ebb4330.js" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.umd.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@5.0/dist/fancybox/fancybox.css">
+
+</head>
+<body class="pageBody" id=" ">
+    
+	
+	<p>This line is from <code>content/firstpost.md</code>.</p>
+<p><a href="/">Go to home</a></p>
+
+   <div class="gallery-box columns is-multiline">
+    <div class="column is-one-third">
+        <a href="../img/graphics/boots.jpeg" data-fancybox="gallery" data-caption="Caption #1">
+            <img src="../img/graphics/boots.jpeg" />
+        </a>
+    </div>
+    <div class="column is-one-third">
+        <a href="../img/graphics/fastlane.jpeg" data-fancybox="gallery" data-caption="Caption #1">
+            <img src="../img/graphics/fastlane.jpeg" />
+        </a>
+    </div>
+    <div class="column is-one-third">
+        <a href="../img/graphics/fly.jpeg" data-fancybox="gallery" data-caption="Caption #1">
+            <img src="../img/graphics/fly.jpeg" />
+        </a>
+    </div>
+    <div class="column is-one-third">
+        <a href="../img/graphics/cats.jpeg" data-fancybox="gallery" data-caption="Caption #1">
+            <img src="../img/graphics/cats.jpeg" />
+        </a>
+    </div>
+</div>
+
+<script>
+    Fancybox.bind("[data-fancybox]", {
+    });
+</script>
+  <section id="posts">
+    <div class="tile is-ancestor">
+            <article class="tile is-child notification is-primary post" id="meow">
+              <p class="title shade">Meow Tab</p>
+              <p class="subtitle shade">Project - The purrfect chrome extension.</p>
+              <a class="button is-white is-outlined postButton" href="https://github.com/aeskandary/meow-tab">
+                  <span class="icon">
+                      <i class="fa fa-github"></i>
+                  </span>
+                  <span>Read more on GitHub...</span>
+              </a>
+            </article>
+     </div>
+    <span class="break"></span>
+    <div class="tile is-ancestor">
+            <article class="tile is-child notification is-primary post" id="photography">
+              <p class="title shade">Photography</p>
+              <p class="subtitle shade">Art - Miscellanous photos, post-produced in Photoshop.</p>
+              <a class="button is-white is-outlined postButton" href="photos">
+                  <span class="icon">
+                      <i class="fa fa-camera"></i>
+                  </span>
+                  <span>View gallery...</span>
+              </a>
+            </article>
+     </div>
+</section>
+
+    <script src="../js/bootstrap.min.js"></script>
+    <script src="../js/mnScript.js"></script>
+</body>
+</html>
